@@ -21,9 +21,9 @@ namespace VerySoftTest
 
         protected int mood;
 
-        public readonly int MOOD_SCARE = 2;
+        public const int MOOD_SCARE = 2;
 
-        public readonly int MOOD_HAPPY = 1;
+        public const int MOOD_HAPPY = 1;
 
 
         public Animal(bool isMammal, bool isCarnivorous,int mood)
