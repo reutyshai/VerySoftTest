@@ -47,10 +47,10 @@
     <Compile Include="Cat.cs" />
     <Compile Include="Dog.cs" />
     <Compile Include="Frog.cs" />
-    <Compile Include="Land.cs" />
+    <Compile Include="ILand.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Water.cs" />
+    <Compile Include="IWater.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VerySoftTest
 {
-    internal class Frog : Animal,Water,Land
+    internal class Frog : Animal,IWater,ILand
     {
         private int NumberOfLegs = 4;
 

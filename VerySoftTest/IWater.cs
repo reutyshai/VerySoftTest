@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace VerySoftTest
 {
-    public interface Land
+    internal interface IWater
     {
-        int GetNumberOfLegs();
+        bool HasGills();
+        bool HasLaysEggs();
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VerySoftTest
 {
-    internal class Dog : Animal, Land
+    internal class Dog : Animal, ILand
     {
         private int numberOfLegs = 4;
         public Dog(bool isMammal, bool isCarnivorous, int mood) : base(isMammal, isCarnivorous, mood)

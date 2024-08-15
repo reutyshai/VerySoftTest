@@ -24,8 +24,8 @@ namespace VerySoftTest
             foreach (var animal in animals)
             {
                 animal.SayHello(-1);//polimorphizm
-                if (animal is Land)
-                    Console.WriteLine("I have " +(animal as Land).GetNumberOfLegs() +" legs"); 
+                if (animal is ILand)
+                    Console.WriteLine("I have " +(animal as ILand).GetNumberOfLegs() +" legs"); 
             }
 
 
